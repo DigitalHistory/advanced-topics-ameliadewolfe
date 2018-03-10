@@ -46,53 +46,51 @@ var lightpurple_markers = [];
 var myGeoJSON= {
   "type":"FeatureCollection",
   "features":
-//BLUEMARKERS
+
   [{"type":"Feature",
   "properties":{myColor: 'blue'},
   "myColor" : "blue",
   "geometry":{"type":"Polygon",
-  "coordinates":[[[-0.840128, 35.546473], [ -0.808099, 35.599194]]]}},
+  "coordinates":[[[-0.840128, 35.546473], [-0.808099, 35.599194]]]}},
 
-  [{"type":"Feature",
+  {"type":"Feature",
   "properties":{myColor: 'lightblue'},
   "myColor" : "lightblue",
   "geometry":{"type":"Polygon",
   "coordinates":[[[-0.306607, 36.057603],[-0.132636, 35.758390]]]}},
 
-//RED MARKERS
-  [{"type":"Feature",
+  {"type":"Feature",
     "properties":{myColor: 'red'},
     "myColor" : "red",
     "geometry":{"type":"Polygon",
                 "coordinates":[[[-0.831378,35.62070]]]}},
 
-   [{"type":"Feature",
+   {"type":"Feature",
     "properties":{myColor: 'lightred'},
     "myColor" : "lighred",
      "geometry":{"type":"Polygon",
                  "coordinates":[[[-0.605016, 35.282651]]]}},
 
-//ORANGE MARKERS
-[{"type":"Feature",
+{"type":"Feature",
   "properties":{myColor: 'orange'},
   "myColor" : "orange",
   "geometry":{"type":"Polygon",
               "coordinates":[[[-0.826182, 35.856544],[-0.784982, 35.757378]]]}},
 
-[{"type":"Feature",
+{"type":"Feature",
   "properties":{myColor: 'lightorange'},
   "myColor" : "lightorange",
   "geometry":{"type":"Polygon",
               "coordinates":[[[-0.746426, 35.790545],[-0.707110, 35.508220]]]}},
 
-//PURPLE MARKERS
-[{"type":"Feature",
+
+{"type":"Feature",
   "properties":{myColor: 'purple'},
   "myColor" : "purple",
   "geometry":{"type":"Polygon",
               "coordinates":[[[-0.68333, 35.11871]]]}}
 
-[{"type":"Feature",
+{"type":"Feature",
   "properties":{myColor: 'lightputple'},
   "myColor" : "lightpurple",
   "geometry":{"type":"Polygon",
@@ -115,26 +113,89 @@ function initializeMap() {
                                  my_map_options);
     // this is an *array* that holds all the marker info
     var all_my_markers =
-            [{position: new google.maps.LatLng(41.9000,12.5000),
+            [{position: new google.maps.LatLng(-0.840128, 35.546473),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map to the one
                              // located at the URL which is given by the variable blueURL, see above
               title: "first Marker",
-              window_content: "<h1>Marker1</h1><p> and this would be the extended description</p>"
+              window_content: "<h1>Marker1: Maasai A Post-Contact</h1><p> and this would be the extended description</p>"
              },
-             {position: new google.maps.LatLng(41.8902,12.4923),
+             {position: new google.maps.LatLng(-0.808099, 35.599194),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "second Marker",
-              window_content: "<h1>Marker2</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h1>Marker2: Maasai B Post-Contact</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
             },
-            {position: new google.maps.LatLng(41.8986,12.4768),
+            {position: new google.maps.LatLng(-0.306607, 36.057603),
              map: my_map,
-             icon: redURL, // this sets the image that represents the marker in the map
+             icon: lightblueURL, // this sets the image that represents the marker in the map
              title: "third Marker",
-             window_content: '<h1>Marker3</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+             window_content: '<h1>Marker3: Maasai A at Contact</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
              '<blockquote>quote quote quote quote</blockquote>'
-           }
+            },
+              {position: new google.maps.LatLng(-0.132636, 35.758390),
+            map: my_map,
+            icon: lightblueURL, // this sets the image that represents the marker in the map
+            title: "fourth Marker",
+            window_content: '<h1>Marker4: Maasai B at Contact</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+            '<blockquote>quote quote quote quote</blockquote>'
+          },
+          {position: new google.maps.LatLng(-0.831378, 35.62070),
+           map: my_map,
+           icon: redURL, // this sets the image that represents the marker in the map
+           title: "fifth Marker",
+           window_content: '<h1>Marker5: Kipsigis Post-Contact</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+           '<blockquote>quote quote quote quote</blockquote>'
+         },
+         {position: new google.maps.LatLng(-0.605016, 35.282651),
+          map: my_map,
+          icon: lightredURL, // this sets the image that represents the marker in the map
+          title: "sisxth Marker",
+          window_content: '<h1>Marker6: Kipsigis at Contact</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+          '<blockquote>quote quote quote quote</blockquote>'
+        },
+        {position: new google.maps.LatLng(-0.826182, 35.856544),
+         map: my_map,
+         icon: orangeURL, // this sets the image that represents the marker in the map
+         title: "seventh Marker",
+         window_content: '<h1>Marker7: Okiek A(Kaplelach) Post-Contact </h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+         '<blockquote>quote quote quote quote</blockquote>'
+       },
+       {position: new google.maps.LatLng(-0.784982, 35.757378),
+        map: my_map,
+        icon: orangeURL, // this sets the image that represents the marker in the map
+        title: "eigth Marker",
+        window_content: '<h1>Marker8: Okiek B(Kipchorwonek) Post-Contact </h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+        '<blockquote>quote quote quote quote</blockquote>'
+      },
+      {position: new google.maps.LatLng(-0.746426, 35.790545),
+       map: my_map,
+       icon: lightorangeURL, // this sets the image that represents the marker in the map
+       title: "ninth Marker",
+       window_content: '<h1>Marker9: Okiek A(Kaplelach) at Contact</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+       '<blockquote>quote quote quote quote</blockquote>'
+         },
+         {position: new google.maps.LatLng(-0.707110, 35.508220),
+          map: my_map,
+          icon: lightorangeURL, // this sets the image that represents the marker in the map
+          title: "tenth Marker",
+          window_content: '<h1>Marker10: Okiek B(Kipchorwonek) at Contact </h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+          '<blockquote>quote quote quote quote</blockquote>'
+        },
+            {position: new google.maps.LatLng(-0.68333, 35.11871),
+         map: my_map,
+         icon: purpleURL, // this sets the image that represents the marker in the map
+         title: "eleventh Marker",
+         window_content: '<h1>Marker11: British Settlment Post-Contact </h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+         '<blockquote>quote quote quote quote</blockquote>'
+       },
+         {position: new google.maps.LatLng(-0.3666652, 35.2999988),
+          map: my_map,
+          icon: lightpurpleURL, // this sets the image that represents the marker in the map
+          title: "twelfth Marker",
+          window_content: '<h1>Marker12: British Settlelment at Contact </h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
+          '<blockquote>quote quote quote quote</blockquote>'
+        },
             ];
 
     for (j = 0; j < all_my_markers.length; j++) {
