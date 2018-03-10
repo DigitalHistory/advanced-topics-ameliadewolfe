@@ -115,77 +115,76 @@ function initializeMap() {
     var all_my_markers =
             [{position: new google.maps.LatLng(-0.840128, 35.546473),
               map: my_map,
-              icon: blueURL, // this sets the image that represents the marker in the map to the one
-                             // located at the URL which is given by the variable blueURL, see above
+              icon: blueURL,
               title: "first Marker",
-              window_content: "<h1>Marker1: Maasai A Post-Contact</h1><p>Recent Maasai settlement at Melilo - second half of the century</p>"
+              window_content: "<h3>Marker1: Maasai A Post-Contact</h3><p>Recent Maasai settlement at Melilo - second half of the century</p>"
              },
              {position: new google.maps.LatLng(-0.808099, 35.599194),
               map: my_map,
-              icon: blueURL, // this sets the image that represents the marker in the map
+              icon: blueURL, 
               title: "second Marker",
-              window_content: "<h1>Marker2: Maasai B Post-Contact</h1><p> and <a href='http://something'>this would</a>Recent Maasai settlement at Oleshepani - second half of the century</p>"
+              window_content: "<h3>Marker2: Maasai B Post-Contact</h3><p> and <a href='http://something'>this would</a>Recent Maasai settlement at Oleshepani - second half of the century</p>"
+              },
+              {position: new google.maps.LatLng(-0.306607, 36.057603),
+               map: my_map,
+               icon: lightblueURL,
+               title: "third Marker",
+               window_content: "<h3>Marker3: Maasai A at Contact</h3><p>Old Maasai settlement at Nakuru - first half of the century</p>"
+              },
+                {position: new google.maps.LatLng(-0.132636, 35.758390),
+              map: my_map,
+              icon: lightblueURL,
+              title: "fourth Marker",
+              window_content: "<h3>Marker4: Maasai B at Contact</h3><p>Old Maasai settlement at Baringo - first half of the century </p>"
+                },
+              {position: new google.maps.LatLng(-0.831378, 35.62070),
+               map: my_map,
+               icon: redURL,
+               title: "fifth Marker",
+               window_content: "<h3>Marker5: Kipsigis Post-Contact</h3><p>Recent Kipsigis settlement East of Amala Tributary (Mara River) at Nkaroni - second half of the century</p>"
+              },
+              {position: new google.maps.LatLng(-0.605016, 35.282651),
+              map: my_map,
+              icon: lightredURL,
+              title: "sisxth Marker",
+                window_content: "<h3>Marker6: Kipsigis at Contact</h3><p>Old Kipsigis settlement West of Amala Tributary (Mara River)- first half of the century</p>"
+              },
+              {position: new google.maps.LatLng(-0.826182, 35.856544),
+               map: my_map,
+               icon: orangeURL,
+               title: "seventh Marker",
+               window_content: "<h3>Marker7: Okiek A(Kaplelach) Post-Contact </h3><p>Recent Okiek settlement: Kaplelach tribe on Mau Escarpment forest edge - second half of the century</p>"
+               },
+               {position: new google.maps.LatLng(-0.784982, 35.757378),
+                map: my_map,
+                icon: orangeURL,
+                title: "eigth Marker",
+                window_content: "<h3>Marker8: Okiek B(Kipchorwonek) Post-Contact </h3><p>Recent Okiek settlement: Kipchorwonek tribe on Mau Escarpment forest edge - second half of the century</p>"
+              },
+              {position: new google.maps.LatLng(-0.746426, 35.790545),
+               map: my_map,
+               icon: lightorangeURL,
+               title: "ninth Marker",
+               window_content: "<h3>Marker9: Okiek A(Kaplelach) at Contact</h3><p>Old Okiek settlement 1 deep in Mau Forest - first half of the century</p>"
+                 },
+             {position: new google.maps.LatLng(-0.707110, 35.508220),
+              map: my_map,
+              icon: lightorangeURL,
+              title: "tenth Marker",
+              window_content: "<h3>Marker10: Okiek B(Kipchorwonek) at Contact </h3><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
             },
-            {position: new google.maps.LatLng(-0.306607, 36.057603),
+                {position: new google.maps.LatLng(-0.68333, 35.11871),
              map: my_map,
-             icon: lightblueURL, // this sets the image that represents the marker in the map
-             title: "third Marker",
-             window_content: "<h1>Marker3: Maasai A at Contact</h1><p>Old Maasai settlement at Nakuru - first half of the century</p>"
+             icon: purpleURL,
+             title: "eleventh Marker",
+             window_content: "<h3>Marker11: British Settlment Post-Contact </h3><p>Recent British settlement at Sotik - second half of the century </p>"
+           },
+             {position: new google.maps.LatLng(-0.3666652, 35.2999988),
+              map: my_map,
+              icon: lightpurpleURL,
+              title: "twelfth Marker",
+              window_content: "<h3>Marker12: British Settlelment at Contact </h3><p>Old British settlement at Kericho - first half of the century</p>"
             },
-              {position: new google.maps.LatLng(-0.132636, 35.758390),
-            map: my_map,
-            icon: lightblueURL, // this sets the image that represents the marker in the map
-            title: "fourth Marker",
-            window_content: "<h1>Marker4: Maasai B at Contact</h1><p>Old Maasai settlement at Baringo - first half of the century </p>"
-          },
-          {position: new google.maps.LatLng(-0.831378, 35.62070),
-           map: my_map,
-           icon: redURL, // this sets the image that represents the marker in the map
-           title: "fifth Marker",
-           window_content: "<h1>Marker5: Kipsigis Post-Contact</h1><p>Recent Kipsigis settlement East of Amala Tributary (Mara River) at Nkaroni - second half of the century</p>"
-         },
-         {position: new google.maps.LatLng(-0.605016, 35.282651),
-          map: my_map,
-          icon: lightredURL, // this sets the image that represents the marker in the map
-          title: "sisxth Marker",
-          window_content: "<h1>Marker6: Kipsigis at Contact</h1><p>Old Kipsigis settlement West of Amala Tributary (Mara River)- first half of the century</p>"
-        },
-        {position: new google.maps.LatLng(-0.826182, 35.856544),
-         map: my_map,
-         icon: orangeURL, // this sets the image that represents the marker in the map
-         title: "seventh Marker",
-         window_content: "<h1>Marker7: Okiek A(Kaplelach) Post-Contact </h1><p>Recent Okiek settlement: Kaplelach tribe on Mau Escarpment forest edge - second half of the century</p>"
-       },
-       {position: new google.maps.LatLng(-0.784982, 35.757378),
-        map: my_map,
-        icon: orangeURL, // this sets the image that represents the marker in the map
-        title: "eigth Marker",
-        window_content: "<h1>Marker8: Okiek B(Kipchorwonek) Post-Contact </h1><p>Recent Okiek settlement: Kipchorwonek tribe on Mau Escarpment forest edge - second half of the century</p>"
-      },
-      {position: new google.maps.LatLng(-0.746426, 35.790545),
-       map: my_map,
-       icon: lightorangeURL, // this sets the image that represents the marker in the map
-       title: "ninth Marker",
-       window_content: "<h1>Marker9: Okiek A(Kaplelach) at Contact</h1><p>Old Okiek settlement 1 deep in Mau Forest - first half of the century</p>"
-         },
-         {position: new google.maps.LatLng(-0.707110, 35.508220),
-          map: my_map,
-          icon: lightorangeURL, // this sets the image that represents the marker in the map
-          title: "tenth Marker",
-          window_content: "<h1>Marker10: Okiek B(Kipchorwonek) at Contact </h1><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
-        },
-            {position: new google.maps.LatLng(-0.68333, 35.11871),
-         map: my_map,
-         icon: purpleURL, // this sets the image that represents the marker in the map
-         title: "eleventh Marker",
-         window_content: "<h1>Marker11: British Settlment Post-Contact </h1><p>Recent British settlement at Sotik - second half of the century </p>"
-       },
-         {position: new google.maps.LatLng(-0.3666652, 35.2999988),
-          map: my_map,
-          icon: lightpurpleURL, // this sets the image that represents the marker in the map
-          title: "twelfth Marker",
-          window_content: "<h1>Marker12: British Settlelment at Contact </h1><p>Old British settlement at Kericho - first half of the century</p>"
-        },
             ];
 
     for (j = 0; j < all_my_markers.length; j++) {
