@@ -7,16 +7,37 @@ var my_center = new google.maps.LatLng(41.8986,12.4768); // center of map
 var my_markers = []; // we use this in the main loop below to hold the markers
 // this one is strange.  In google maps, there is usually only one
 // infowindow object -- its content and position change when you click on a
-// marker.  This is counterintuitive, but we need to live with it.  
+// marker.  This is counterintuitive, but we need to live with it.
 var infowindow = new google.maps.InfoWindow({content: ""});
 var legendHTML = "<h1>Legend</h1>";
 
 // I'm complicating things a bit with this next set of variables, which will help us
 // to make multi-colored markers
 var blueURL = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+var lightblueURL = "";
+
 var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
-var red_markers = [];
+var lightredURL = "";
+
+var orangeURL = "";
+var lightorangeURL = "";
+
+var purpleURL = "";
+var lightpurpleURL = "";
+
+//
+
 var blue_markers = [];
+var lightblue_markers = [];
+
+var red_markers = [];
+var lightred_markers = [];
+
+var orange_markers = [];
+var lightorange_markers = [];
+
+var purple_markers = [];
+var lightpurple_markers = [];
 
 // this is for fun, if you want it.  With this powerful feature you can add arbitrary
 // data layers to your map.  It's cool. Learn more at:
@@ -32,8 +53,8 @@ var myGeoJSON= {
                                 [-79.62890625,37.71859032558816],[-81.2109375,49.26780455063753],
                                 [-85.60546875,49.03786794532644]]]}},
    {"type":"Feature",
-    "properties":{myColor: 'green'},
-    "myColor" : "green",
+    "properties":{myColor: 'blue'},
+    "myColor" : "blue",
      "geometry":{"type":"Polygon",
                  "coordinates":[[[-113.203125,58.35563036280967],[-114.78515624999999,51.944264879028765],
                                  [-101.6015625,51.944264879028765],[-112.32421875,58.263287052486035],
@@ -86,7 +107,7 @@ function initializeMap() {
             window_content: all_my_markers[j].window_content});
 
         // this next line is ugly, and you should change it to be prettier.
-        // be careful not to introduce syntax errors though.  
+        // be careful not to introduce syntax errors though.
       legendHTML +=
         "<div class=\"pointer\" onclick=\"locateMarker(my_markers[" + j + "])\"> " +
           marker.window_content + "</div>";
@@ -104,7 +125,7 @@ function initializeMap() {
         } else if (all_my_markers[j].icon == redURL ) {
             red_markers.push({marker:marker, listener:listener});
         }
-        
+
     }
     document.getElementById("map_legend").innerHTML = legendHTML;
   my_map.data.addGeoJson(myGeoJSON);
@@ -116,7 +137,7 @@ function initializeMap() {
     fillColor: '#FF0000',
     fillOpacity: 0.35,
     // in general, we always have to *set the map* when we
-    // add features. 
+    // add features.
     map: my_map,
     bounds: {
       north: 42.685,
@@ -127,7 +148,7 @@ function initializeMap() {
 
     center: {"lat": 41.9000, "lng":12.5000},
     radius: 1000
-  });  
+  });
   my_map.data.setStyle(function (feature) {
     var thisColor = feature.getProperty("myColor");
     return {
@@ -172,7 +193,7 @@ function toggleMarkers (marker_array, map) {
 
 
 // I added this for fun.  It allows you to trigger the infowindow
-// from outside the map.  
+// from outside the map.
 function locateMarker (marker) {
     console.log(marker);
     my_map.panTo(marker.marker.position);
