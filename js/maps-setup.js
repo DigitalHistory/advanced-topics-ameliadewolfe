@@ -42,24 +42,63 @@ var lightpurple_markers = [];
 // this is for fun, if you want it.  With this powerful feature you can add arbitrary
 // data layers to your map.  It's cool. Learn more at:
 // https://developers.google.com/maps/documentation/javascript/datalayer#load_geojson
+
 var myGeoJSON= {
   "type":"FeatureCollection",
   "features":
+//BLUEMARKERS
+  [{"type":"Feature",
+  "properties":{myColor: 'blue'},
+  "myColor" : "blue",
+  "geometry":{"type":"Polygon",
+  "coordinates":[[[-0.840128, 35.546473], [ -0.808099, 35.599194]]]}},
+
+  [{"type":"Feature",
+  "properties":{myColor: 'lightblue'},
+  "myColor" : "lightblue",
+  "geometry":{"type":"Polygon",
+  "coordinates":[[[-0.306607, 36.057603],[-0.132636, 35.758390]]]}},
+
+//RED MARKERS
   [{"type":"Feature",
     "properties":{myColor: 'red'},
     "myColor" : "red",
     "geometry":{"type":"Polygon",
-                "coordinates":[[[-85.60546875,49.03786794532644],[-96.6796875,40.713955826286046],
-                                [-79.62890625,37.71859032558816],[-81.2109375,49.26780455063753],
-                                [-85.60546875,49.03786794532644]]]}},
-   {"type":"Feature",
-    "properties":{myColor: 'blue'},
-    "myColor" : "blue",
+                "coordinates":[[[-0.831378,35.62070]]]}},
+
+   [{"type":"Feature",
+    "properties":{myColor: 'lightred'},
+    "myColor" : "lighred",
      "geometry":{"type":"Polygon",
-                 "coordinates":[[[-113.203125,58.35563036280967],[-114.78515624999999,51.944264879028765],
-                                 [-101.6015625,51.944264879028765],[-112.32421875,58.263287052486035],
-                                 [-113.203125,58.35563036280967]]]
-                }}]};
+                 "coordinates":[[[-0.605016, 35.282651]]]}},
+
+//ORANGE MARKERS
+[{"type":"Feature",
+  "properties":{myColor: 'orange'},
+  "myColor" : "orange",
+  "geometry":{"type":"Polygon",
+              "coordinates":[[[-0.826182, 35.856544],[-0.784982, 35.757378]]]}},
+
+[{"type":"Feature",
+  "properties":{myColor: 'lightorange'},
+  "myColor" : "lightorange",
+  "geometry":{"type":"Polygon",
+              "coordinates":[[[-0.746426, 35.790545],[-0.707110, 35.508220]]]}},
+
+//PURPLE MARKERS
+[{"type":"Feature",
+  "properties":{myColor: 'purple'},
+  "myColor" : "purple",
+  "geometry":{"type":"Polygon",
+              "coordinates":[[[-0.68333, 35.11871]]]}}
+
+[{"type":"Feature",
+  "properties":{myColor: 'lightputple'},
+  "myColor" : "lightpurple",
+  "geometry":{"type":"Polygon",
+                "coordinates":[[[-0.3666652, 35.2999988]]]}};
+
+
 
 
 /* a function that will run when the page loads.  It creates the map
