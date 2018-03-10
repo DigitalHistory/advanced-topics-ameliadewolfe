@@ -22,8 +22,24 @@ It makes sense to put an introductory paragraph here, above the map and buttons.
 [^1]: This is my first footnote
 
 <a id="#one">1: </a> Corinne Kratz, Affecting Performance: Meaning, Movement, and Experience in Okiek Women’s Initiation (Washington: Smithsonian Institution Press, 1994), 5.
-
 <a id="#two">2: </a> Kratz, 5, 57.
+<a id="#three">3: </a> Kratz, 77.
+<a id="#four">4: </a> Kratz, 73-79.
+<a id="#five">5: </a> Kratz, 5.
+<a id="#six">6: </a> Kratz, 66.
+<a id="#seven">7: </a> Kratz, 68.
+<a id="#eight">8: </a> Kratz, 77.
+<a id="#nine">9: </a> Kratz, 64-70, 312.
+<a id="#ten">10: </a> Kratz, 65-80.
+<a id="#eleven">11: </a> Kratz, 304-305, 340.
+<a id="#twelve">12: </a> Roderic Blackburn, “The Okiek and Their History,” Azania: Archaeological Research in Africa, 9, no. 1 (1974): 147.
+<a id="#thirteen">13: </a> Kratz, 304-305, 340.
+<a id="#fourteen">14: </a> Kratz, 74.
+<a id="#fifteen">15: </a> Kratz, 7.
+<a id="#sixteen">16: </a> Kratz, 62-63.
+<a id="#seventeen">17: </a> Blackburn, 140-142.
+<a id="#eighteen">18: </a> Blackburn, 142.
+<a id="#nineteen">19: </a> Blackburn, 139.
 
 
 <div class="markers">
