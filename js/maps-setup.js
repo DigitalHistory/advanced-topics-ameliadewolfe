@@ -4,7 +4,7 @@
 var my_map; // this will hold the map
 var my_map_options; // this will hold the options we'll use to create the map
 var my_center = new google.maps.LatLng(41.8986,12.4768); // center of map
-var my_markers = []; // we use this in the main loop below to hold the markers
+var my_markers = ["first Marker", "second Marker", "third Marker", "fourth Marker", "fifth Marker", "sixth Marker", "seventh Marker", "eigth Marker", "ninth Marker", "tenth Marker", "eleventh Marker", "twelfth Marker"]; // we use this in the main loop below to hold the markers
 // this one is strange.  In google maps, there is usually only one
 // infowindow object -- its content and position change when you click on a
 // marker.  This is counterintuitive, but we need to live with it.
@@ -14,16 +14,36 @@ var legendHTML = "<h2>Legend</h2>";
 // I'm complicating things a bit with this next set of variables, which will help us
 // to make multi-colored markers
 var blueURL = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
-var lightblueURL = "";
+var lightblueURL = new google.maps.Marker({
+    id: "lightbluemarker",
+    icon: {
+        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+        strokeColor: "lightblue",
+        scale: 3;}});
 
 var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
-var lightredURL = "";
+var lightredURL = new google.maps.Marker({
+    id: "lightredmarker",
+    icon: {
+        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+        strokeColor: "peachpuff",
+        scale: 3;}});
 
-var orangeURL = "";
-var lightorangeURL = "";
+var greenURL = "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
+var lightgreenURL = new google.maps.Marker({
+    id: "lightorangemarker",
+    icon: {
+        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+        strokeColor: "palegreen",
+        scale: 3;}});
 
-var purpleURL = "";
-var lightpurpleURL = "";
+var purpleURL = "http://maps.google.com/mapfiles/ms/icons/purple-dot.png";
+var lightpurpleURL = new google.maps.Marker({
+    id: "lightorangemarker",
+    icon: {
+        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+        strokeColor: "plum",
+        scale: 3;}});
 
 //
 
@@ -33,8 +53,8 @@ var lightblue_markers = [];
 var red_markers = [];
 var lightred_markers = [];
 
-var orange_markers = [];
-var lightorange_markers = [];
+var green_markers = [];
+var lightgreen_markers = [];
 
 var purple_markers = [];
 var lightpurple_markers = [];
@@ -72,14 +92,14 @@ var myGeoJSON= {
                  "coordinates":[[[-0.605016, 35.282651]]]}},
 
 {"type":"Feature",
-  "properties":{myColor: 'orange'},
-  "myColor" : "orange",
+  "properties":{myColor: 'green'},
+  "myColor" : "green",
   "geometry":{"type":"Polygon",
               "coordinates":[[[-0.826182, 35.856544],[-0.784982, 35.757378]]]}},
 
 {"type":"Feature",
-  "properties":{myColor: 'lightorange'},
-  "myColor" : "lightorange",
+  "properties":{myColor: 'lightgreen'},
+  "myColor" : "lightgreen",
   "geometry":{"type":"Polygon",
               "coordinates":[[[-0.746426, 35.790545],[-0.707110, 35.508220]]]}},
 
@@ -151,25 +171,25 @@ function initializeMap() {
               },
               {position: new google.maps.LatLng(-0.826182, 35.856544),
                map: my_map,
-               icon: orangeURL,
+               icon: greenURL,
                title: "seventh Marker",
                window_content: "<h3>Marker7: Okiek A(Kaplelach) Post-Contact </h3><p>Recent Okiek settlement: Kaplelach tribe on Mau Escarpment forest edge - second half of the century</p>"
                },
                {position: new google.maps.LatLng(-0.784982, 35.757378),
                 map: my_map,
-                icon: orangeURL,
+                icon: greenURL,
                 title: "eigth Marker",
                 window_content: "<h3>Marker8: Okiek B(Kipchorwonek) Post-Contact </h3><p>Recent Okiek settlement: Kipchorwonek tribe on Mau Escarpment forest edge - second half of the century</p>"
               },
               {position: new google.maps.LatLng(-0.746426, 35.790545),
                map: my_map,
-               icon: lightorangeURL,
+               icon: lightgreenURL,
                title: "ninth Marker",
                window_content: "<h3>Marker9: Okiek A(Kaplelach) at Contact</h3><p>Old Okiek settlement 1 deep in Mau Forest - first half of the century</p>"
                  },
              {position: new google.maps.LatLng(-0.707110, 35.508220),
               map: my_map,
-              icon: lightorangeURL,
+              icon: lightgreenURL,
               title: "tenth Marker",
               window_content: "<h3>Marker10: Okiek B(Kipchorwonek) at Contact </h3><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
             },
@@ -204,9 +224,9 @@ function initializeMap() {
         var listener = google.maps.event.addListener(marker, 'click', function() {
             // if you want to allow multiple info windows, uncomment the next line
             // and comment out the two lines that follow it
-            //this.info.open(this.map, this);
-            infowindow.setContent (this.window_content);
-            infowindow.open(my_map, this);
+            this.info.open(this.map, this);
+            //infowindow.setContent (this.window_content);
+            //infowindow.open(my_map, this);
         });
         my_markers.push({marker:marker, listener:listener});
         if (all_my_markers[j].icon == blueURL ) {
