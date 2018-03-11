@@ -3,8 +3,8 @@
 // whenever we need to -- they have 'global scope'
 var my_map; // this will hold the map
 var my_map_options; // this will hold the options we'll use to create the map
-var my_center = new google.maps.LatLng(41.8986,12.4768); // center of map
-var my_markers = ["first Marker", "second Marker", "third Marker", "fourth Marker", "fifth Marker", "sixth Marker", "seventh Marker", "eigth Marker", "ninth Marker", "tenth Marker", "eleventh Marker", "twelfth Marker"]; // we use this in the main loop below to hold the markers
+var my_center = new google.maps.LatLng(-0.599040, 35.631334); // center of map
+var my_markers = ["first Marker", "second Marker", "third Marker", "fourth Marker", "fifth Marker", "sixth Marker", "seventh Marker", "eighth Marker", "ninth Marker", "tenth Marker", "eleventh Marker", "twelfth Marker"]; // we use this in the main loop below to hold the markers
 // this one is strange.  In google maps, there is usually only one
 // infowindow object -- its content and position change when you click on a
 // marker.  This is counterintuitive, but we need to live with it.
@@ -47,17 +47,17 @@ var lightpurpleURL = new google.maps.Marker({
 
 //
 
-var blue_markers = [];
-var lightblue_markers = [];
+var blue_markers = ["first Marker", "second Marker"];
+var lightblue_markers = ["third Marker", "fourth Marker"];
 
-var red_markers = [];
-var lightred_markers = [];
+var red_markers = ["fifth Marker"];
+var lightred_markers = ["sixth Marker"];
 
-var green_markers = [];
-var lightgreen_markers = [];
+var green_markers = ["seventh Marker", "eighth Marker"];
+var lightgreen_markers = ["ninth Marker", "tenth Marker"];
 
-var purple_markers = [];
-var lightpurple_markers = [];
+var purple_markers = ["eleventh Marker"];
+var lightpurple_markers = ["twelfth Marker"];
 
 // this is for fun, if you want it.  With this powerful feature you can add arbitrary
 // data layers to your map.  It's cool. Learn more at:
@@ -178,7 +178,7 @@ function initializeMap() {
                {position: new google.maps.LatLng(-0.784982, 35.757378),
                 map: my_map,
                 icon: greenURL,
-                title: "eigth Marker",
+                title: "eighth Marker",
                 window_content: "<h3>Marker8: Okiek B(Kipchorwonek) Post-Contact </h3><p>Recent Okiek settlement: Kipchorwonek tribe on Mau Escarpment forest edge - second half of the century</p>"
               },
               {position: new google.maps.LatLng(-0.746426, 35.790545),
@@ -231,11 +231,22 @@ function initializeMap() {
         my_markers.push({marker:marker, listener:listener});
         if (all_my_markers[j].icon == blueURL ) {
             blue_markers.push({marker:marker, listener:listener});
+        } else if (all_my_markers[j].icon == lightblueURL ) {
+            lightblue_markers.push({marker:marker, listener:listener});
         } else if (all_my_markers[j].icon == redURL ) {
             red_markers.push({marker:marker, listener:listener});
-        }
-
+        } else if (all_my_markers[j].icon == lightredURL ) {
+            lightred_markers.push({marker:marker, listener:listener});
+        } else if (all_my_markers[j].icon == greenURL ) {
+            green_markers.push({marker:marker, listener:listener});
+        } else if (all_my_markers[j].icon == lightgreenURL ) {
+            lightgreen_markers.push({marker:marker, listener:listener});
+        } else if (all_my_markers[j].icon == purpleURL ) {
+            purple_markers.push({marker:marker, listener:listener});
+        } else if (all_my_markers[j].icon == lightpurpleURL ) {
+            lightpurple_markers.push({marker:marker, listener:listener});
     }
+
     document.getElementById("map_legend").innerHTML = legendHTML;
   my_map.data.addGeoJson(myGeoJSON);
 
@@ -249,13 +260,13 @@ function initializeMap() {
     // add features.
     map: my_map,
     bounds: {
-      north: 42.685,
-      south: 40.671,
-      east: 12.501,
-      west: 12.485
+      north: 35.630758,
+      south: 35.623236,
+      east: -0.661948,
+      west: -0.690348
     },
 
-    center: {"lat": 41.9000, "lng":12.5000},
+    center: {"lat": -0.599040, "lng":35.631334},
     radius: 1000
   });
   my_map.data.setStyle(function (feature) {
