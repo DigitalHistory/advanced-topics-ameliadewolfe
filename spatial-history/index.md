@@ -10,15 +10,11 @@
 
 
 
-Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
+<!--Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
 
 Then add those places to the marker array in [../js/maps-setup.js](../js/maps-setup.js) (see instructions there).
 
-replace this text and the text with your essay. But be sure not to eliminate the html elements that
-are contained inside this textarea, or [your map won't work at
-<figure>
-![](https://upload.wikimedia.org/wikipedia/commons/a/ab/Lolcat_in_folder.jpg "this is the alt text")<figcaption>caption</figcaption>
-</figure>
+
 This map was created based on the multiple maps provided within Kratz's ethnography, and the points were determined based off of her descriptions within the book. The markers are based on two time periods and four socio-cultural groups. Each, the Okiek, Kipsigis, Maasai, and governing body (British Colonial/Kenyan government), are shown in a gradient from light to dark, indicating their settlement location at the beginning of the twentieth century (just after British settlement) and in the second half of the century.
 <!--It makes sense to put an introductory paragraph here, above the map and buttons. To change the bootswatch thenme, change "united" to one of the other theme names listed at [strapdownjs.com](http://strapdownjs.com/).
 
@@ -35,7 +31,7 @@ This map was created based on the multiple maps provided within Kratz's ethnogra
   <div id="map_legend"></div>
 </div>
 
-# Next Section
+## Analysis
 
 <p>Studying patterns of mobility and interaction spheres is something which archaeologists frequently attempt. This map presents new patterns and spatial/geographical relationships that Kratz herself may not have even considered, and that may have never been considered otherwise. What the map shows what Kratz’s words did not convey; that the groups are converging in the second half of the century on the southern side of the Mau escarpment, with groups moving the least-to-greatest distance over time from the Okiek, to the Kipsigis, to the Maasai. Kratz presents the same gradient of impact on lifeways from interaction with the colonial/Kenyan governments. Additionally, Kratz emphasizes the crossing of the Amara tributary by the Kipsigis, but not the crossing of the Mau escarpment by the Maasai.</p>
 <p>Another reason that perhaps the Okiek hunter-gatherers had little impact from European settlement in Kenya is because of the simple fact that they lived in and exploited the Mau escarpment forest, meanwhile their agro-pastoralist neighbours lived on and exploited it’s plains. Perhaps the British settlers didn’t find it useful to venture further into the region - everyone was and continue to be around the escarpment meanwhile the Okiek were, and still are, within it. This especially makes sense within the context of a quote by the region’s first ethnographer, Roderic Blackburn, as he postulates the reason that no other groups inhabited the forest region was as follows: </p>
@@ -45,12 +41,6 @@ This map was created based on the multiple maps provided within Kratz's ethnogra
 <p> This map not only represents the argument then, it becomes the argument, and shows the path of where to take the argument/study next as new spatial patterns emerge. It also becomes an insightful exercise in its very making, which highlights where data is ambiguous or lacking.</p>
 <p>That being said. There are many problems converting this argument into a spatially and visually augmented one. As mentioned, the Okiek, Kipsigis and Maasai have little in the way of a historical record, so the dates and exact locations plotted here are rather ambiguous, and more approximate than anything (which is not particularly made clear by the visual display)<a id="#thirteen">13</a> Next, the map’s data presentation ignores the historical seasonal mobility, and increasing sedentism of the Okiek, Kipsigis, and Maasai, and fails to delineate their territory as fluid spaces which span entire regions with blurry boundaries rather than being static, fixed points on a map.<a id="#fourteen">14</a> Additionally, the map’s limited dataset fails to address where else the British and contemporary Kenyans and their governments may have moved through the landscape aside from their settlements, or may have crossed paths with their groups, nor who or what else was going on around the Okiek, Kipsigis, and Maasai settlements at the times delineated (e.g. market economies being established, cities emerging, schools being built).<a id="#fifteen">15</a> </p>
 <p>Furthermore, the map presentation removes all the complex social contexts of the data. For example, the cultural associations are much more complicated than simply, for example, Okiek vs Kipsigis groups and Okiek vs Kipsigis territory. Each group have their own very distinct tribes, located in more areas than just around the Mau.<a id="#sixteen">16</a> They are culturally fluid groups spread throughout Kenya, Tanzania and Uganda, who speak multiple languages, appropriate various aspects of one-another’s cultural conventions and languages, and at times, marry into the communities of one another.<a id="#seventeen">17</a>. Although, they do, as Blackburn states, “clearly conceive of this socio-geographic category, as shown by the proper name” such as “ Kipchornwonek” i.e. an Okiek tribe.<a id="#eighteen">18</a> The map’s presentation furthermore removes other social contexts such as ethnic/cultural identity and regional social hierarchy (Maasai on top, and Okiek on the bottom) of the various groups, which is quite messy. For example, the Okiek are  “a group of hunters and gatherers who called themselves Okiek and are so called by all Kalenjin-speaking peoples” (to which the Kipsigis belong but the Maasai do not) but are otherwise called “Dorobo”, a derogatory Maasai term which lumps the Okiek in with the rest of the region’s hunter-gatherers or “poor people” (which the Kipsigis are not).<a id="#nineteen">19</a> Moreover, the other groups see the Okiek as at the bottom of the social hierarchy, meanwhile the Okiek conceptualize themselves as equals to their neighbours. Unfortunately then, the map cannot convey the social intricacies of the interaction spheres depicted by the map. It loses all social context but adds new context, a spatial context. </p>
-
-
-
-## in sections like this
-also _italics_ and __bold__ which can also be written *like this* or **like this**
-etc. Be sure to [make use of links](http://digital.hackinghistory.ca) -- that's one of the reasons we write on the Web, and I've asked you to use links for all yor footnotes/references as well.  
 
 _____
 <a id="#one">1:</a><a href="https://search.library.utoronto.ca/details?215550">Corinne Kratz, Affecting Performance: Meaning, Movement, and Experience in Okiek Women’s Initiation (Washington: Smithsonian Institution Press, 1994), 5.</a>

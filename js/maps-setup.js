@@ -9,7 +9,7 @@ var my_markers = []; // we use this in the main loop below to hold the markers
 // infowindow object -- its content and position change when you click on a
 // marker.  This is counterintuitive, but we need to live with it.
 var infowindow = new google.maps.InfoWindow({content: ""});
-var legendHTML = "<h1>Legend</h1>";
+var legendHTML = "<h2>Legend</h2>";
 
 // I'm complicating things a bit with this next set of variables, which will help us
 // to make multi-colored markers
@@ -121,7 +121,7 @@ function initializeMap() {
              },
              {position: new google.maps.LatLng(-0.808099, 35.599194),
               map: my_map,
-              icon: blueURL, 
+              icon: blueURL,
               title: "second Marker",
               window_content: "<h3>Marker2: Maasai B Post-Contact</h3><p> and <a href='http://something'>this would</a>Recent Maasai settlement at Oleshepani - second half of the century</p>"
               },
