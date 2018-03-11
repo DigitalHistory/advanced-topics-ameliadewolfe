@@ -108,15 +108,13 @@ var myGeoJSON= {
   "properties":{myColor: 'purple'},
   "myColor" : "purple",
   "geometry":{"type":"Polygon",
-              "coordinates":[[[-0.68333, 35.11871]]]}}
+              "coordinates":[[[-0.68333, 35.11871]]]}},
 
 {"type":"Feature",
   "properties":{myColor: 'lightputple'},
   "myColor" : "lightpurple",
   "geometry":{"type":"Polygon",
-                "coordinates":[[[-0.3666652, 35.2999988]]]}};
-
-
+                "coordinates":[[[-0.3666652, 35.2999988]]]}}
 
 
 /* a function that will run when the page loads.  It creates the map
@@ -187,25 +185,25 @@ function initializeMap() {
                title: "ninth Marker",
                window_content: "<h3>Marker9: Okiek A(Kaplelach) at Contact</h3><p>Old Okiek settlement 1 deep in Mau Forest - first half of the century</p>"
                  },
-             {position: new google.maps.LatLng(-0.707110, 35.508220),
-              map: my_map,
-              icon: lightgreenURL,
-              title: "tenth Marker",
-              window_content: "<h3>Marker10: Okiek B(Kipchorwonek) at Contact </h3><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
-            },
+               {position: new google.maps.LatLng(-0.707110, 35.508220),
+                map: my_map,
+                icon: lightgreenURL,
+                title: "tenth Marker",
+                window_content: "<h3>Marker10: Okiek B(Kipchorwonek) at Contact </h3><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
+              },
                 {position: new google.maps.LatLng(-0.68333, 35.11871),
-             map: my_map,
-             icon: purpleURL,
-             title: "eleventh Marker",
-             window_content: "<h3>Marker11: British Settlment Post-Contact </h3><p>Recent British settlement at Sotik - second half of the century </p>"
-           },
-             {position: new google.maps.LatLng(-0.3666652, 35.2999988),
-              map: my_map,
-              icon: lightpurpleURL,
-              title: "twelfth Marker",
-              window_content: "<h3>Marker12: British Settlelment at Contact </h3><p>Old British settlement at Kericho - first half of the century</p>"
-            },
-            ];
+                 map: my_map,
+                 icon: purpleURL,
+                 title: "eleventh Marker",
+                 window_content: "<h3>Marker11: British Settlment Post-Contact </h3><p>Recent British settlement at Sotik - second half of the century </p>"
+               },
+                 {position: new google.maps.LatLng(-0.3666652, 35.2999988),
+                  map: my_map,
+                  icon: lightpurpleURL,
+                  title: "twelfth Marker",
+                  window_content: "<h3>Marker12: British Settlelment at Contact </h3><p>Old British settlement at Kericho - first half of the century</p>"
+                },
+                ];
 
     for (j = 0; j < all_my_markers.length; j++) {
         var marker =  new google.maps.Marker({
