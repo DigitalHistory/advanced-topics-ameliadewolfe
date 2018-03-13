@@ -4,7 +4,7 @@
 var my_map; // this will hold the map
 var my_map_options; // this will hold the options we'll use to create the map
 var my_center = new google.maps.LatLng(-0.599040, 35.631334); // center of map
-var my_markers = ["first Marker", "second Marker", "third Marker", "fourth Marker", "fifth Marker", "sixth Marker", "seventh Marker", "eighth Marker", "ninth Marker", "tenth Marker", "eleventh Marker", "twelfth Marker"]; // we use this in the main loop below to hold the markers
+var my_markers = []; // we use this in the main loop below to hold the markers
 // this one is strange.  In google maps, there is usually only one
 // infowindow object -- its content and position change when you click on a
 // marker.  This is counterintuitive, but we need to live with it.
@@ -19,7 +19,8 @@ var lightblueURL = new google.maps.Marker({
     icon: {
         path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
         strokeColor: "lightblue",
-        scale: 3;}});
+        scale: 3}
+      });
 
 var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
 var lightredURL = new google.maps.Marker({
@@ -27,7 +28,8 @@ var lightredURL = new google.maps.Marker({
     icon: {
         path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
         strokeColor: "peachpuff",
-        scale: 3;}});
+        scale: 3}
+      });
 
 var greenURL = "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
 var lightgreenURL = new google.maps.Marker({
@@ -35,7 +37,8 @@ var lightgreenURL = new google.maps.Marker({
     icon: {
         path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
         strokeColor: "palegreen",
-        scale: 3;}});
+        scale: 3}
+      });
 
 var purpleURL = "http://maps.google.com/mapfiles/ms/icons/purple-dot.png";
 var lightpurpleURL = new google.maps.Marker({
@@ -43,7 +46,8 @@ var lightpurpleURL = new google.maps.Marker({
     icon: {
         path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
         strokeColor: "plum",
-        scale: 3;}});
+        scale: 3}
+      });
 
 //
 
@@ -115,6 +119,7 @@ var myGeoJSON= {
   "myColor" : "lightpurple",
   "geometry":{"type":"Polygon",
                 "coordinates":[[[-0.3666652, 35.2999988]]]}}
+  ]}
 
 
 /* a function that will run when the page loads.  It creates the map
@@ -125,6 +130,7 @@ function initializeMap() {
         zoom: 13,  // higher is closer-up
         mapTypeId: google.maps.MapTypeId.HYBRID // you can also use TERRAIN, STREETMAP, SATELLITE
     };
+  }
 
     // this one line creates the actual map
     my_map = new google.maps.Map(document.getElementById("map_canvas"),
