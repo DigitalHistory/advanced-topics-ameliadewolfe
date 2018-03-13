@@ -14,54 +14,46 @@ var legendHTML = "<h2>Legend</h2>";
 // I'm complicating things a bit with this next set of variables, which will help us
 // to make multi-colored markers
 var blueURL = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
-var lightblueURL = new google.maps.Marker({
-    id: "lightbluemarker",
-    icon: {
-        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+var lightblueURL = {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
         strokeColor: "lightblue",
-        scale: 3}
-      });
+        scale: 5}
+
 
 var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
-var lightredURL = new google.maps.Marker({
-    id: "lightredmarker",
-    icon: {
-        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+var lightredURL =  {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
         strokeColor: "peachpuff",
-        scale: 3}
-      });
+        scale: 3};
 
 var greenURL = "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
-var lightgreenURL = new google.maps.Marker({
-    id: "lightorangemarker",
-    icon: {
-        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+var lightgreenURL = {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
         strokeColor: "palegreen",
-        scale: 3}
-      });
+        scale: 3};
 
 var purpleURL = "http://maps.google.com/mapfiles/ms/icons/purple-dot.png";
 var lightpurpleURL = new google.maps.Marker({
     id: "lightorangemarker",
     icon: {
-        path: google.maps.SymbolPath.BBACKWARD_CLOSED_ARROW,
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
         strokeColor: "plum",
         scale: 3}
       });
 
 //
 
-var blue_markers = ["first Marker", "second Marker"];
-var lightblue_markers = ["third Marker", "fourth Marker"];
+var blue_markers = [];
+var lightblue_markers = [];
 
-var red_markers = ["fifth Marker"];
-var lightred_markers = ["sixth Marker"];
+var red_markers = [];
+var lightred_markers = [];
 
-var green_markers = ["seventh Marker", "eighth Marker"];
-var lightgreen_markers = ["ninth Marker", "tenth Marker"];
+var green_markers = [];
+var lightgreen_markers = [];
 
-var purple_markers = ["eleventh Marker"];
-var lightpurple_markers = ["twelfth Marker"];
+var purple_markers = [];
+var lightpurple_markers = [];
 
 // this is for fun, if you want it.  With this powerful feature you can add arbitrary
 // data layers to your map.  It's cool. Learn more at:
@@ -75,51 +67,51 @@ var myGeoJSON= {
   "properties":{myColor: 'blue'},
   "myColor" : "blue",
   "geometry":{"type":"Polygon",
-  "coordinates":[[[-0.840128, 35.546473], [-0.808099, 35.599194]]]}},
+  "coordinates":[[-0.840128, 35.546473], [-0.808099, 35.599194]]}},
 
   {"type":"Feature",
   "properties":{myColor: 'lightblue'},
   "myColor" : "lightblue",
   "geometry":{"type":"Polygon",
-  "coordinates":[[[-0.306607, 36.057603],[-0.132636, 35.758390]]]}},
+  "coordinates":[[-0.306607, 36.057603],[-0.132636, 35.758390]]}},
 
   {"type":"Feature",
     "properties":{myColor: 'red'},
     "myColor" : "red",
     "geometry":{"type":"Polygon",
-                "coordinates":[[[-0.831378,35.62070]]]}},
+                "coordinates":[-0.831378,35.62070]}},
 
    {"type":"Feature",
     "properties":{myColor: 'lightred'},
     "myColor" : "lighred",
      "geometry":{"type":"Polygon",
-                 "coordinates":[[[-0.605016, 35.282651]]]}},
+                 "coordinates":[-0.605016, 35.282651]}},
 
 {"type":"Feature",
   "properties":{myColor: 'green'},
   "myColor" : "green",
   "geometry":{"type":"Polygon",
-              "coordinates":[[[-0.826182, 35.856544],[-0.784982, 35.757378]]]}},
+              "coordinates":[[-0.826182, 35.856544],[-0.784982, 35.757378]]}},
 
 {"type":"Feature",
   "properties":{myColor: 'lightgreen'},
   "myColor" : "lightgreen",
   "geometry":{"type":"Polygon",
-              "coordinates":[[[-0.746426, 35.790545],[-0.707110, 35.508220]]]}},
+              "coordinates":[[-0.746426, 35.790545],[-0.707110, 35.508220]]}},
 
 
 {"type":"Feature",
   "properties":{myColor: 'purple'},
   "myColor" : "purple",
   "geometry":{"type":"Polygon",
-              "coordinates":[[[-0.68333, 35.11871]]]}},
+              "coordinates":[-0.68333, 35.11871]}},
 
 {"type":"Feature",
   "properties":{myColor: 'lightputple'},
   "myColor" : "lightpurple",
   "geometry":{"type":"Polygon",
-                "coordinates":[[[-0.3666652, 35.2999988]]]}}
-  ]}
+                "coordinates":[-0.3666652, 35.2999988]}}
+  ]};
 
 
 /* a function that will run when the page loads.  It creates the map
@@ -127,10 +119,10 @@ var myGeoJSON= {
 function initializeMap() {
     my_map_options = {
         center:  my_center, // to change this value, change my_center above
-        zoom: 13,  // higher is closer-up
+        zoom: 10,  // higher is closer-up
         mapTypeId: google.maps.MapTypeId.HYBRID // you can also use TERRAIN, STREETMAP, SATELLITE
     };
-  }
+
 
     // this one line creates the actual map
     my_map = new google.maps.Map(document.getElementById("map_canvas"),
@@ -218,7 +210,7 @@ function initializeMap() {
             icon: all_my_markers[j].icon,
             title: all_my_markers[j].title,
             window_content: all_my_markers[j].window_content});
-
+     console.log(j + "th time through the loop");
         // this next line is ugly, and you should change it to be prettier.
         // be careful not to introduce syntax errors though.
       legendHTML +=
@@ -228,10 +220,11 @@ function initializeMap() {
         var listener = google.maps.event.addListener(marker, 'click', function() {
             // if you want to allow multiple info windows, uncomment the next line
             // and comment out the two lines that follow it
-            this.info.open(this.map, this);
-            //infowindow.setContent (this.window_content);
-            //infowindow.open(my_map, this);
+            //this.info.open(this.map, this);
+            infowindow.setContent (this.window_content);
+            infowindow.open(my_map, this);
         });
+        console.log("listnener successfully created: " + listener);
         my_markers.push({marker:marker, listener:listener});
         if (all_my_markers[j].icon == blueURL ) {
             blue_markers.push({marker:marker, listener:listener});
@@ -249,7 +242,8 @@ function initializeMap() {
             purple_markers.push({marker:marker, listener:listener});
         } else if (all_my_markers[j].icon == lightpurpleURL ) {
             lightpurple_markers.push({marker:marker, listener:listener});
-    }
+          }
+        }
 
     document.getElementById("map_legend").innerHTML = legendHTML;
   my_map.data.addGeoJson(myGeoJSON);
