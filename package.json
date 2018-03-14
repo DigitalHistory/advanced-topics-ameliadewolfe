@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults || true",
     "watch": "mocha --reporter mochawesome --reporter-options reportDir=TestResults,reportFilename=testresults -w",
-    "collectjson": "node collectjson-teacher.js"
+    "collectjson": "node collectjson-teacher.js",
+    "server": "node node_modules/http-server/bin/http-server"
   },
   "author": "Matt Price",
   "license": "AGPL-3.0",
