@@ -24,7 +24,7 @@ div#mapcontainer {
    width be set by the containing element, but constrain the height
 */
 div#map_canvas {
-  height:80vh;                  /*80 % of the viewport height*/
+  height:90vh;                  /*80 % of the viewport height*/
 }
 
 /* this is the legend div. Can you make it into a right sidebar? you may
@@ -37,7 +37,7 @@ div#map_legend {
 /* if you want, you can make the text in the legend less ugly by adding
 extra css classes. Advisable! */
 div#map_legend h1, div#map_legend h3 {
-
+  font-family:Arial, sans-serif;
 }
 
 // make it obvious that the legend text is clickable
@@ -117,4 +117,3 @@ div.gm-style-iw blockquote {
    background-color: #F4F4F4;
    padding: 10px;
 }
-
