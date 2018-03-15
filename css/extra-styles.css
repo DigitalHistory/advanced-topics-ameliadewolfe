@@ -39,7 +39,6 @@ div#map_legend {
 extra css classes. Advisable! */
 div#map_legend h2, div#map_legend h3 {
   font-family:Arial, sans-serif;
-  font-size:11px;
 }
 
 // make it obvious that the legend text is clickable
