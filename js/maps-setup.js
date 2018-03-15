@@ -81,74 +81,74 @@ function initializeMap() {
             [{position: new google.maps.LatLng(-0.840128, 35.546473),
               map: my_map,
               icon: blueURL,
-              title: "first Marker",
+              title: "Maasai A Post-Contact",
               window_content: "<h5>Maasai A Post-Contact</h5><p>Recent Maasai settlement at Melilo - second half of the century</p>"
              },
              {position: new google.maps.LatLng(-0.808099, 35.599194),
               map: my_map,
               icon: blueURL,
-              title: "second Marker",
+              title: "Maasai B Post-Contact",
               window_content: "<h5>Maasai B Post-Contact</h5><p>Recent Maasai settlement at Oleshepani - second half of the century</p>"
               },
               {position: new google.maps.LatLng(-0.306607, 36.057603),
                map: my_map,
                icon: lightblueURL,
-               title: "third Marker",
+               title: "Maasai A at Contact",
                window_content: "<h5>Maasai A at Contact</h5><p>Old Maasai settlement at Nakuru - first half of the century</p>"
               },
                 {position: new google.maps.LatLng(-0.132636, 35.758390),
               map: my_map,
               icon: lightblueURL,
-              title: "fourth Marker",
+              title: "Maasai B at Contact",
               window_content: "<h5>Maasai B at Contact</h5><p>Old Maasai settlement at Baringo - first half of the century </p>"
                 },
               {position: new google.maps.LatLng(-0.831378, 35.62070),
                map: my_map,
                icon: redURL,
-               title: "fifth Marker",
+               title: "Kipsigis Post-Contact",
                window_content: "<h5>Kipsigis Post-Contact</h5><p>Recent Kipsigis settlement East of Amala Tributary (Mara River) at Nkaroni - second half of the century</p>"
               },
               {position: new google.maps.LatLng(-0.605016, 35.282651),
               map: my_map,
               icon: lightredURL,
-              title: "sisxth Marker",
+              title: "Kipsigis at Contact",
                 window_content: "<h5>Kipsigis at Contact</h5><p>Old Kipsigis settlement West of Amala Tributary (Mara River)- first half of the century</p>"
               },
               {position: new google.maps.LatLng(-0.826182, 35.856544),
                map: my_map,
                icon: greenURL,
-               title: "seventh Marker",
-               window_content: "<h5>Okiek A(Kaplelach) Post-Contact </h5><p>Recent Okiek settlement: Kaplelach tribe on Mau Escarpment forest edge - second half of the century</p>"
+               title: "Okiek A(Kaplelach) Post-Contact",
+               window_content: "<h5>Okiek A(Kaplelach) Post-Contact</h5><p>Recent Okiek settlement: Kaplelach tribe on Mau Escarpment forest edge - second half of the century</p>"
                },
                {position: new google.maps.LatLng(-0.784982, 35.757378),
                 map: my_map,
                 icon: greenURL,
-                title: "eighth Marker",
-                window_content: "<h5>Okiek B(Kipchorwonek) Post-Contact </h5><p>Recent Okiek settlement: Kipchorwonek tribe on Mau Escarpment forest edge - second half of the century</p>"
+                title: "Okiek B(Kipchorwonek) Post-Contact",
+                window_content: "<h5>Okiek B(Kipchorwonek) Post-Contact</h5><p>Recent Okiek settlement: Kipchorwonek tribe on Mau Escarpment forest edge - second half of the century</p>"
               },
               {position: new google.maps.LatLng(-0.746426, 35.790545),
                map: my_map,
                icon: lightgreenURL,
-               title: "ninth Marker",
+               title: "Okiek A(Kaplelach) at Contact",
                window_content: "<h5>Okiek A(Kaplelach) at Contact</h5><p>Old Okiek settlement 1 deep in Mau Forest - first half of the century</p>"
                  },
                {position: new google.maps.LatLng(-0.707110, 35.508220),
                 map: my_map,
                 icon: lightgreenURL,
-                title: "tenth Marker",
-                window_content: "<h5>Okiek B(Kipchorwonek) at Contact </h5><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
+                title: "Okiek B(Kipchorwonek) at Contact",
+                window_content: "<h5>Okiek B(Kipchorwonek) at Contact</h5><p>Old Okiek settlement 2 deep in Mau Forest - first half of the century</p>"
               },
                 {position: new google.maps.LatLng(-0.68333, 35.11871),
                  map: my_map,
                  icon: purpleURL,
-                 title: "eleventh Marker",
-                 window_content: "<h5>British Settlment Post-Contact </h5><p>Recent British settlement at Sotik - second half of the century </p>"
+                 title: "British Settlment Post-Contact",
+                 window_content: "<h5>British Settlment Post-Contact</h5><p>Recent British settlement at Sotik - second half of the century </p>"
                },
                  {position: new google.maps.LatLng(-0.3666652, 35.2999988),
                   map: my_map,
                   icon: lightpurpleURL,
-                  title: "twelfth Marker",
-                  window_content: "<h5>British Settlelment at Contact </h5><p>Old British settlement at Kericho - first half of the century</p>"
+                  title: "British Settlelment at Contact",
+                  window_content: "<h5>British Settlelment at Contact</h5><p>Old British settlement at Kericho - first half of the century</p>"
                 },
                 ];
 
