@@ -13,11 +13,19 @@ var legendHTML = "<h2>Legend</h2>";
 
 // I'm complicating things a bit with this next set of variables, which will help us
 // to make multi-colored markers
-var blueURL = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+var blueURL = {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+        strokeColor: "black",
+        fillColor: "blue",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
+
 var lightblueURL = {
         path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
         strokeColor: "black",
-        fillColor: "lightblue",
+        fillColor: "lightskyblue",
         fillOpacity: 1,
         strokeWeight: 2,
         strokeOpacity: 0.5,
