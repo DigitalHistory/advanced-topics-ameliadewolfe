@@ -23,23 +23,59 @@ var lightblueURL = {
         strokeOpacity: 0.5,
         scale: 6};
 
-var redURL = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
+var redURL = {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+        strokeColor: "black",
+        fillColor: "red",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
+
 var lightredURL =  {
         path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
-        strokeColor: "tomato",
-        scale: 4};
+        strokeColor: "black",
+        fillColor: "tomato",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
 
-var greenURL = "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
+var greenURL = {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+        strokeColor: "black",
+        fillColor: "green",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
+
 var lightgreenURL = {
         path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
-        strokeColor: "palegreen",
-        scale: 4};
+        strokeColor: "black",
+        fillColor: "palegreen",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
 
-var purpleURL = "http://maps.google.com/mapfiles/ms/icons/purple-dot.png";
+var purpleURL = {
+        path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+        strokeColor: "black",
+        fillColor: "purple",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
+
 var lightpurpleURL = {
         path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
-        strokeColor: "plum",
-        scale: 4};
+        strokeColor: "black",
+        fillColor: "mediumpurple",
+        fillOpacity: 1,
+        strokeWeight: 2,
+        strokeOpacity: 0.5,
+        scale: 6};
 
 
 //
