@@ -125,7 +125,7 @@ function initializeMap() {
             [{position: new google.maps.LatLng(-0.840128, 35.546473),
               map: my_map,
               icon: blueURL,
-              title: "<h5>Maasai A Post-Contact,/h5>",
+              title: "<h5>Maasai A Post-Contact</h5>",
               window_content: "<h5>Maasai A Post-Contact</h5><p>Recent Maasai settlement at Melilo - second half of the century</p>"
              },
              {position: new google.maps.LatLng(-0.808099, 35.599194),
