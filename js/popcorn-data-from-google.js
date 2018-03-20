@@ -1,4 +1,4 @@
-//$(window).on('load', function() {
+$(window).on('load', function() {
 var loadPopcorn = function(){
     // Create a popcporn instance by calling Popcorn("#id-of-the-media-element")
     var pop = Popcorn("#media");
@@ -17,7 +17,7 @@ var loadPopcorn = function(){
                                     simpleSheet: false } );
     // if you're having problems with this, you can uncomment the next line and
     // look in the browser's console to see if the data looks like it's supposed to.
-    // console.log(mytables.data);
+    console.log(mytables.data);
 
     // This is our "callback function".  When tabletop grabs the spreadsheet data,
     // it gets sent here and processed.  We take advantage of this feature of tabletop
@@ -53,7 +53,7 @@ var loadPopcorn = function(){
             console.log(pop);
         };
     }
-
+}
     // one more function that allows us to write start and end times in human-friendly format like 1:05:14.6
     // stolen from Atul's cool instappin' project from 2011:
     // https://github.com/toolness/instapoppin/blob/gh-pages/instapoppin.js
