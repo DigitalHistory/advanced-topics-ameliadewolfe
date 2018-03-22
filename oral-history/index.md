@@ -1,6 +1,6 @@
-# Your Title should go in the appropriate place in `index.html`, not here! Title is itself set only in the `<head>` element
 
-## Use headings only if you want to have subsections in your essay
+
+
 
 <div class="sidepanel">
               <!-- This is the div where all the popcorn action will hapen -->
@@ -8,7 +8,7 @@
               </div>
             </div>
 
-
+## Use headings only if you want to have subsections in your essay
 
 Add your content here, including _markup_ of **various kinds**. Now you can just write! But you should be aware of a couple of advanced features of markdown:
 - you can embed HTML directly n a markdown file. This is great if you want to add complex attributes like **classes**, e.g. to your `img` tags so that they display properly.

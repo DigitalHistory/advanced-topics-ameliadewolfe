@@ -1,4 +1,4 @@
-$(window).on('load', function() {
+//$(window).on('load', function() {
 var loadPopcorn = function(){
     // Create a popcporn instance by calling Popcorn("#id-of-the-media-element")
     var pop = Popcorn("#media");
@@ -7,7 +7,7 @@ var loadPopcorn = function(){
     // You'll need to change the key to match your spreadsheet.  Remember, this is the
     // part in the spreadsheet URL that comes between "key=" and "&"
     // It's very important, though, to keep the same column headers as in our example spreadsheet!
-    var public_spreadsheet_key = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTHKH87kQvt8QrfnO6sLW49fTeA65OS7pSYzqq-c0IBZmTxQlBfERxuKg9b3jUAzJj8_PPf2L53DutA/pubhtml';
+    var public_spreadsheet_key = 'https://docs.google.com/spreadsheets/d/1X3_5ZKvicPWifgC4Ag1o8Jl8vuHfVQoRZYJ6C0mQ66E/edit?usp=sharing';
 
     // now we are going to use the tabletop.js library, which was called in our
     // HTML file, to grab the date from the spreadsheet and process it so that
@@ -53,7 +53,7 @@ var loadPopcorn = function(){
             console.log(pop);
         };
     }
-}
+
     // one more function that allows us to write start and end times in human-friendly format like 1:05:14.6
     // stolen from Atul's cool instappin' project from 2011:
     // https://github.com/toolness/instapoppin/blob/gh-pages/instapoppin.js
@@ -91,7 +91,7 @@ var loadPopcorn = function(){
     }
 
     // play the video right away
-    pop.play();
+    //pop.play();
 
-  );
+
 };
