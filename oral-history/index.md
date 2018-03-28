@@ -66,5 +66,5 @@ While it is not possible to go back and ask Wally Funk more questions about this
 [^twelfth]: Sage, Daniel. 2009, 160.
 [^thirteenth]: Sage, Daniel. 2009, 148-153.
 [^fourteenth]: Melroy, Pamela. 1995.; Miller, Michelle, 2013.
-[^fifteenth]: <a href="https://www.cnbc.com/2018/01/12/richard-branson-reveals-that-hes-excited-for-virgin-galactic-in-2018.html">Umoh</a>
-[^sixteenth]: <a href="https://www.theguardian.com/science/2016/apr/10/virgin-galactic-richard-branson-interview">Anthony</a>
+[^fifteenth]: <a href="https://www.cnbc.com/2018/01/12/richard-branson-reveals-that-hes-excited-for-virgin-galactic-in-2018.html">Umoh, Ruth.</a> “Billionaire Richard Branson reveals what he's most excited about for 2018.” CNBC, January 12, 2018.
+[^sixteenth]: <a href="https://www.theguardian.com/science/2016/apr/10/virgin-galactic-richard-branson-interview">Anthony, Andrew.</a> “Richard Branson: ‘Millions of people would love to become astronauts’.” The Guardian, April 10, 2016.
