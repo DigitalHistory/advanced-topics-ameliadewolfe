@@ -52,19 +52,19 @@ Although the proceedings of the Mercury program left no officially sanctioned pa
 
 While it is not possible to go back and ask Wally Funk more questions about this history of women’s space travel and answer any remaining questions, and the interviewer may have focused on particular aspects I would not have myself, this oral history interview and its accompanying technical accompaniment crafts a different kind of history from Wally’s words - a much more personal, relatable, and accessible past. It places the emphasis on the human experience rather than detailing a narrative about detached and abstract processes. This humanizing medium of history therefore brings the past into the present and allows us to interact with it, and manipulate it to tell the narrative we want it to express, while allowing Wally to do the same.
 
-[^first]: <a href="http://www.hawaiinewsnow.com/story/37634261/pioneer-pilot-wally-funk-honored-at-pacific-aviation-museum">Lee</a>
-[^second]: <a href="https://www.theguardian.com/world/2002/apr/02/gender.uk">Krum</a>
-[^third]: <a href="https://news.nationalgeographic.com/news/2003/07/0709_030709_tvspacewoman.html">Burbank</a>
-[^fourth]: <a href="https://www.popsci.com/why-did-mercury-13-astronauts-never-fly-in-space">Tietel</a>; <a href="https://www.cbsnews.com/news/pioneer-pilot-led-the-way-for-american-women-in-space/">Miller</a>; <a href="http://www.bbc.com/news/science-environment-36824898">Nelson</a>
-[^fifth]: Tietel
-[^sixth]: <a href="https://search-proquest-com.myaccess.library.utoronto.ca/docview/231210451?pq-origsite=summon">Melroy</a>; Mercury 13
-[^seventh]: <a href="http://www.mercury13.com/background.htm">Mercury 13</a>
-[^eighth]: <a href="https://www.ninety-nines.org/mercury13.htm">Funk</a>
-[^ninth]: <a href="https://www.theatlantic.com/science/archive/2017/03/women-in-space/498833/">Koren</a>
-[^tenth]: Nelson
-[^eleventh]: <a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/00380261/v57is1/146_glafsnatpog.xml">Sage</a> 150-153.
-[^twelfth]: Sage 160.
-[^thirteenth]: Sage 148-153.
-[^fourteenth]: Melroy; Miller
-[^fifteenth]: <a hred="https://www.cnbc.com/2018/01/12/richard-branson-reveals-that-hes-excited-for-virgin-galactic-in-2018.html">Umoh</a>
+[^first]: <a href="http://www.hawaiinewsnow.com/story/37634261/pioneer-pilot-wally-funk-honored-at-pacific-aviation-museum">Lee, Grace.</a> “Pioneer pilot Wally Funk honoured at Pacific Aviation Museum.” Hawaii News Now. Friday March 2, 2018.
+[^second]: <a href="https://www.theguardian.com/world/2002/apr/02/gender.uk">Krum, Sharon.</a> “Space cowgirl.” The Guardian. Tuesday April 2, 2002.
+[^third]: <a href="https://news.nationalgeographic.com/news/2003/07/0709_030709_tvspacewoman.html">Burbank, Sam.</a> “Mercury 13’s Wally Funk Fights for Her Place in Space.” National Geographic News. July 9, 2003.  
+[^fourth]: <a href="https://www.popsci.com/why-did-mercury-13-astronauts-never-fly-in-space">Teitel, Amy.</a> “Why Did the Mercury 13 Astronauts Never Fly in Space?” Popular Science. July 17, 2016.; <a href="https://www.cbsnews.com/news/pioneer-pilot-led-the-way-for-american-women-in-space/">Miller, Michelle.</a> “Pinoeer pilot led the way for American women in space.” CBS News. June 12, 2013.; <a href="http://www.bbc.com/news/science-environment-36824898">Nelson, Sue.</a> “The Mercury 13: Women with the ‘right stuff’.” BBC News. July 19, 2016.
+[^fifth]: Teitel, Amy. 2016.
+[^sixth]: <a href="https://search-proquest-com.myaccess.library.utoronto.ca/docview/231210451?pq-origsite=summon">Melroy, Pamela.</a> “Women in Space.” Minerva’s Bulletin Board, vol. 8(2): 1995, Pasadena.; <a href="http://www.mercury13.com/background.htm">Hallonquist, Al.</a> “Mercury 13 – the women of the Mercury Era: Background.” 2012, Mercury13.com.
+[^seventh]: Hallonquist, Al. 2012.
+[^eighth]: <a href="https://www.ninety-nines.org/mercury13.htm">Funk, Wally.</a> “The Mercury 13 Story.” The Ninety-Nines, 2009.
+[^ninth]: <a href="https://www.theatlantic.com/science/archive/2017/03/women-in-space/498833/">Koren, Marina.</a> “Why Women Weren't Allowed to Be Astronauts.” The Atlantic, March 10, 2017.
+[^tenth]: Nelson, Sue. 2016.
+[^eleventh]: <a href="https://journals-scholarsportal-info.myaccess.library.utoronto.ca/details/00380261/v57is1/146_glafsnatpog.xml">Sage, Daniel.</a> “Giant leaps and forgotten steps: NASA and the performance of gender.” The Sociological Review, vol. 57(1): 2009, pp. 150-153.
+[^twelfth]: Sage, Daniel. 2009, 160.
+[^thirteenth]: Sage, Daniel. 2009, 148-153.
+[^fourteenth]: Melroy, Pamela. 1995.; Miller, Michelle, 2013.
+[^fifteenth]: <a href="https://www.cnbc.com/2018/01/12/richard-branson-reveals-that-hes-excited-for-virgin-galactic-in-2018.html">Umoh</a>
 [^sixteenth]: <a href="https://www.theguardian.com/science/2016/apr/10/virgin-galactic-richard-branson-interview">Anthony</a>
