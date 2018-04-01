@@ -17,6 +17,8 @@ Conceptually, the interface will start with a geographical region, to which laye
 * Other Related Artifacts/Features
 * Other Related Sites
 
+![Project Proposal: HumSci Interface Mock-Up](https://c1.staticflickr.com/1/799/26278960247_1b4f1f637b_z.jpg)
+
 Smaller projects similar to this are already underway. For example, some archaeological sites such as <a href="http://paulrduffy.com/?page_id=53">Tarhos 26</a> utilize online databases which store coded ceramic typological data (processing of which is already underway at the University of Toronto) in order to promote international collaboration between archaeologists. Similarly, institutions in the heritage and museum sectors such as <a href="http://collections.rom.on.ca/?_ga=2.111309444.183391490.1522558121-245781122.1520088268">the ROM</a> already benefit from online exhibit catalogues. Furthermore, archival websites such as archive.org are already enabling the mass sharing of scanned archived documents.
 
 The intention of the interface it to make its information publicly accessible, while alterations and additions to it will be restricted to professionals, as well as authorized and supervised students and volunteers. For example, historians can add their own related historical documents, and ethnographers or oral historians can add their own related collections of audio files, while students and volunteers will pick up the slack of adding and updating content where professionals fail to contribute.
