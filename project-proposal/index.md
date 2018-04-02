@@ -19,7 +19,7 @@ Conceptually, the interface starts with a geographical region, to which layers o
 
 ![Project Proposal: HumSci Interface Mock-Up](https://c1.staticflickr.com/1/799/26278960247_1b4f1f637b_z.jpg)
 
-There are already smaller projects similar to this underway. For example, some archaeological sites such as <a href="http://paulrduffy.com/?page_id=53">Tarhos 26</a> utilize online databases which store coded ceramic typological data (processing of which is already underway at the University of Toronto) in order to promote international collaboration between archaeologists.[^first] Similarly, institutions in the heritage and museum sectors such as <a href="http://collections.rom.on.ca/?_ga=2.111309444.183391490.1522558121-245781122.1520088268">the ROM</a> are already benefiting from online exhibit catalogues.[^second] Furthermore, archival websites such as <a href="https://archive.org/">archive.org</a> are already enabling the mass sharing of scanned archived documents.[^third]
+There are already smaller projects similar to this underway. For example, some archaeological sites such as Tarhos 26 utilize online databases which store coded ceramic typological data (processing of which is already underway at the University of Toronto) in order to promote international collaboration between archaeologists.[^first] Similarly, institutions in the heritage and museum sectors such as the ROM are already benefiting from online exhibit catalogues.[^second] Furthermore, archival websites such as archive.org are already enabling the mass sharing of scanned archived documents.[^third]
 
 The intention is to make the interface’s  information publicly accessible, while alterations and additions to it will be restricted to professionals, as well as authorized and supervised students and volunteers. For example, historians can add their own related historical documents, and ethnographers or oral historians can add their own related collections of audio files, while students and volunteers will pick up the slack of adding and updating content where professionals fail to contribute.
 
@@ -78,3 +78,15 @@ Finally, research is often restrained by issues of geography and geopolitics. To
 |  Teleconferencing/videoconferencing | 500 |
 |  Promotion and dissemination  | 2500 |
 |  **Total** | 1126140 |
+
+[^first]: <a href="http://paulrduffy.com/?page_id=53">Paul Duffy</a>. “The Bronze Age Körös Off-Tell Archaeology (BAKOTA) Project.”
+[^second]: <a href="http://collections.rom.on.ca/?_ga=2.111309444.183391490.1522558121-245781122.1520088268">Royal Ontario Museum Online Collections and Research</a>.  
+[^third]: <a href=“https://archive.org/”>archive.org</a>
+[^fourth]: budget
+[^fifth]: <a href= “https://muse-jhu-edu.myaccess.library.utoronto.ca/article/576378”>Morag M. Kersel</a>. “Storage Wars: Solving the Archaeological Curation Crisis?” Journal of Eastern Mediterranean Archaeology and Heritage Studies, vol. 3, no. 1 (2015): 42-54.
+[^sixth]: <a href=“https://read-dukeupress-edu.myaccess.library.utoronto.ca/books/book/1417/chapter/168538/The-Archaeologist-as-a-World-CitizenOn-the-Morals”>Chip Colwell-Chanthaphonh</a>. “The archaeologist as a world citizen: on the morals of heritage preservation and destruction.” Cosmopolitan Archaeologies, Duke University Press (2009): 140-165.
+[^seventh]: <a href=“https://search.library.utoronto.ca/details?783628”>Caroline Moorehead</a>. “The Lost Treasures of Troy.” Weidenfeld and Nicolson, London (1994): 244-263.
+[^eighth]: <a href="https://search-proquest-com.myaccess.library.utoronto.ca/docview/1770194871?pq-origsite=summon&accountid=14771">Emma Cunliffe, Nibal Muhesen and Marina Lostal</a>. “The Destruction of Cultural Property in the Syrian Conflict: Legal Implications and Obligations.” International Journal of Cultural Property, Oxford vol. 23 no. 1 (Feb 2016): 1-31.
+[^ninth]: <a href=“http://www.bbc.com/news/world-middle-east-33984006”>“Syrian archaeologist 'killed in Palmyra' by IS militants.”</a> BBC News, 19 August, 2015.
+[^tenth]: <a href="http://abcnews.go.com/Travel/israel-jordan-fighting-dead-sea-scrolls/story?id=9558941">Simon McGregor-Wood</a>. “Who Owns the Dead Sea Scrolls?” ABC News, 14 January, 2010.
+[^eleventh]: <a href="http://www.jstor.org.myaccess.library.utoronto.ca/stable/41779253?seq=1#page_scan_tab_contents">Shareen Blair Brysac</a>. “The Parthenon Marbles Custody Case: Did British restorers mutilate the famous sculptures?” Archaeology, vol. 52, no. 3 (May/June 1999): 74-77.
