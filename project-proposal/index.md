@@ -57,27 +57,27 @@ Finally, research is often restrained by issues of geography and geopolitics. To
 
 ## HumSci Budget Proposal
 
-|  **Digital History Initiative Grants** |  |
-|  :------: | ------ |
-|  **Proposal for III. Large Grant** |  |
-|  **5 Year Trial Period at the University of Toronto** |  |
-|   |  |
-|  **Salaries and Wages** | **Dollar Amount/5 Years** |
-|  Academic/Faculty personnel | 425000 |
-|  Research assistants | 212500 |
-|  Data managers or analysts | 212500 |
-|  Computer programmer/Technician | 58240 |
-|  **Equipment** |  |
-|  Equipment | 110000 |
-|  Equipment installation/set-up | 2000 |
-|  Technical Servicing  | 5000 |
-|  **Other Services & Expenses** |  |
-|  Computer use/data storage | 18780 |
-|  Photographic/graphic services | 50000 |
-|  Translation/interpretation | 29120 |
-|  Teleconferencing/videoconferencing | 500 |
-|  Promotion and dissemination  | 2500 |
-|  **Total** | 1126140 |
+|  **Digital History Initiative Grants** |  |  |
+|  :------: | ------ | ------ |
+|  **Proposal for III. Large Grant** |  |  |
+|  **5 Year Trial Period at the University of Toronto** |  |  |
+|   |  |  |
+|  **Salaries and Wages** | **Dollar Amount/5 Years** | **Estimate** |
+|  Academic/Faculty personnel | 425000 | 2 part-time workers/5 dep |
+|  Research assistants | 212500 | 1 part-time worker/ 5 dep |
+|  Data managers or analysts | 212500 | 1 part-time worker/5 dep |
+|  Computer programmer/Technician | 58240 | Retainer $11,648/year |
+|  **Equipment** |  |  |
+|  Equipment | 110000 | 3D printer+scanner+200 pieces printer/year |
+|  Equipment installation/set-up | 2000 | One-time fee |
+|  Technical Servicing  | 5000 | Assuming $1000/year maintenance fees |
+|  **Other Services & Expenses** |  |  |
+|  Computer use/data storage | 18780 | Server fees starting 313/month |
+|  Photographic/graphic services | 50000 | VR Imaging $10,000/year |
+|  Translation/interpretation | 29120 | Retainer $5,824/year occasional services |
+|  Teleconferencing/videoconferencing | 500 | Assuming $100/year service fees |
+|  Promotion and dissemination  | 2500 | Assuming $500/year publication fees |
+|  **Total** | 1126140 |  |
 
 [^first]: <a href="http://paulrduffy.com/?page_id=53">Paul Duffy</a>. “The Bronze Age Körös Off-Tell Archaeology (BAKOTA) Project.”
 [^second]: <a href="http://collections.rom.on.ca/?_ga=2.111309444.183391490.1522558121-245781122.1520088268">Royal Ontario Museum Online Collections and Research</a>.  
