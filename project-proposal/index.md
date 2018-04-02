@@ -82,7 +82,7 @@ Finally, research is often restrained by issues of geography and geopolitics. To
 [^first]: <a href="http://paulrduffy.com/?page_id=53">Paul Duffy</a>. “The Bronze Age Körös Off-Tell Archaeology (BAKOTA) Project.”
 [^second]: <a href="http://collections.rom.on.ca/?_ga=2.111309444.183391490.1522558121-245781122.1520088268">Royal Ontario Museum Online Collections and Research</a>.  
 [^third]: <a href=“https://archive.org/”>archive.org</a>
-[^fourth]: budget
+[^fourth]: <a href="https://docs.google.com/spreadsheets/d/1GPDlfio6-xHU4Ga3R-MD4jZfWvwX2smCLvB1SuUGc1c/edit?usp=sharing">Proposal budget</a>.
 [^fifth]: <a href= “https://muse-jhu-edu.myaccess.library.utoronto.ca/article/576378”>Morag M. Kersel</a>. “Storage Wars: Solving the Archaeological Curation Crisis?” Journal of Eastern Mediterranean Archaeology and Heritage Studies, vol. 3, no. 1 (2015): 42-54.
 [^sixth]: <a href=“https://read-dukeupress-edu.myaccess.library.utoronto.ca/books/book/1417/chapter/168538/The-Archaeologist-as-a-World-CitizenOn-the-Morals”>Chip Colwell-Chanthaphonh</a>. “The archaeologist as a world citizen: on the morals of heritage preservation and destruction.” Cosmopolitan Archaeologies, Duke University Press (2009): 140-165.
 [^seventh]: <a href=“https://search.library.utoronto.ca/details?783628”>Caroline Moorehead</a>. “The Lost Treasures of Troy.” Weidenfeld and Nicolson, London (1994): 244-263.
